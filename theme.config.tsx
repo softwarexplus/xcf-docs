@@ -13,7 +13,15 @@ const config: DocsThemeConfig = {
     },
     docsRepositoryBase: "https://github.com/softwareXPlus/OverCtrl-Docs",
     footer: {
-        text: "Nextra Docs Template"
+        text: (
+            <span>
+                MIT {new Date().getFullYear()} ©{" "}
+                <a href="https://github.com/softwareXPlus/OverCtrl-Docs" target="_blank">
+                    Over Ctrl
+                </a>
+                .
+            </span>
+        )
     },
     useNextSeoProps() {
         const { asPath } = useRouter()
@@ -40,9 +48,8 @@ const config: DocsThemeConfig = {
                 <meta content={ogTitle} property="og:title" />
                 <meta content={ogDescription} property="og:description" />
                 <meta content={asPath} property="og:url" />
-                <Head>
-                    <link rel="icon" href="/favicon.png" />
-                </Head>
+                <meta content="/favicon.png" property="og:image" />
+                <meta content="#5865f2" data-react-helmet="true" name="theme-color" />
             </>
         )
     }

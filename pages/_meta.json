@@ -1,9 +1,13 @@
 {
     "index": "Introduction",
     "another": "Another Page",
-    "advanced": "Advanced (A Folder)",
-    "about": {
-        "title": "About",
+    "configuration": "Configuration",
+    "terms": {
+        "title": "Terms of Service",
+        "type": "page"
+    },
+    "privacy": {
+        "title": "Privacy Policy",
         "type": "page"
     }
 }
