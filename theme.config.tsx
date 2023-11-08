@@ -1,7 +1,6 @@
 import React from "react"
 import { DocsThemeConfig, useConfig } from "nextra-theme-docs"
 import { useRouter } from "next/router"
-import Head from "next/head"
 
 const config: DocsThemeConfig = {
     logo: <span>Over Ctrl Docs</span>,
@@ -11,7 +10,7 @@ const config: DocsThemeConfig = {
     chat: {
         link: "https://dsc.gg/SoftwareXPlus"
     },
-    docsRepositoryBase: "https://github.com/softwareXPlus/OverCtrl-Docs",
+    docsRepositoryBase: "https://github.com/softwarexplus/OverCtrl-Docs/tree/main",
     footer: {
         text: (
             <span>
@@ -52,6 +51,24 @@ const config: DocsThemeConfig = {
                 <meta content="#5865f2" data-react-helmet="true" name="theme-color" />
             </>
         )
+    },
+    gitTimestamp({ timestamp }) {
+        const { locale, asPath } = useRouter()
+
+        if (asPath !== "/") {
+            return (
+                <>
+                    Last updated on:{" "}
+                    <time dateTime={timestamp.toISOString()}>
+                        {timestamp.toLocaleDateString(locale, {
+                            day: "numeric",
+                            month: "long",
+                            year: "numeric"
+                        })}
+                    </time>
+                </>
+            )
+        }
     }
 }
 
