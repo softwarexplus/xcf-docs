@@ -8,7 +8,7 @@ const config: DocsThemeConfig = {
         link: "https://github.com/softwarexplus/OverCtrl-Docs"
     },
     chat: {
-        link: "https://dsc.gg/SoftwareXPlus"
+        link: "https://discord.gg/7WtsbUsypB"
     },
     docsRepositoryBase: "https://github.com/softwarexplus/OverCtrl-Docs/tree/main",
     footer: {
