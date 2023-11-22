@@ -3,20 +3,20 @@ import { DocsThemeConfig, useConfig } from "nextra-theme-docs"
 import { useRouter } from "next/router"
 
 const config: DocsThemeConfig = {
-    logo: <span>Over Ctrl Docs</span>,
+    logo: <span>Alt Ctrl Docs</span>,
     project: {
-        link: "https://github.com/softwarexplus/OverCtrl-Docs"
+        link: "https://github.com/softwarexplus/AltCtrl-Docs"
     },
     chat: {
         link: "https://discord.gg/7WtsbUsypB"
     },
-    docsRepositoryBase: "https://github.com/softwarexplus/OverCtrl-Docs/tree/main",
+    docsRepositoryBase: "https://github.com/softwarexplus/AltCtrl-Docs/tree/main",
     footer: {
         text: (
             <span>
                 MIT {new Date().getFullYear()} ©{" "}
-                <a href="https://github.com/softwareXPlus/OverCtrl-Docs" target="_blank">
-                    Over Ctrl
+                <a href="https://github.com/softwareXPlus/AltCtrl-Docs" target="_blank">
+                    Alt Ctrl
                 </a>
                 .
             </span>
@@ -26,7 +26,7 @@ const config: DocsThemeConfig = {
         const { asPath } = useRouter()
         if (asPath !== "/") {
             return {
-                titleTemplate: "%s – Over Ctrl"
+                titleTemplate: "%s – Alt Ctrl"
             }
         }
     },
@@ -34,7 +34,7 @@ const config: DocsThemeConfig = {
         const { frontMatter, title } = useConfig()
         const { asPath } = useRouter()
 
-        let ogTitle = `${title} – Over Ctrl`
+        let ogTitle = `${title} – Alt Ctrl`
 
         if (asPath === "/") {
             ogTitle = title
