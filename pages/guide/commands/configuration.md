@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Configuration Command
+# Configuration Command
 
 The `config` command allows you to configure various settings for Alt Ctrl Bot on your server.
 

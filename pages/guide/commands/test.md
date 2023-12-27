@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Test Command
+# Test Command
 
 The `test` command allows users to check the status of the bot.
 

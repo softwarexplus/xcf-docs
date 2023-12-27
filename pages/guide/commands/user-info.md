@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - User Information Command
+# User Information Command
 
 The `User Information` command allows users to view information about a specific server member.
 

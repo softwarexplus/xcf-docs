@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Announcement Command
+# Announcement Command
 
 The `altctrl-announcement` command allows you to follow the development channel for Alt Ctrl Bot.
 

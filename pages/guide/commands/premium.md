@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Premium Command
+# Premium Command
 
 The `premium` command allows users to redeem premium codes for special features and benefits.
 

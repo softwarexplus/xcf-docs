@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Rock-paper-scissors (RPS) Command
+# Rock-paper-scissors (RPS) Command
 
 The `rps` command allows users to play Rock-paper-scissors against the bot.
 

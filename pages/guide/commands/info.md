@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Info Command
+# Info Command
 
 The `info` command provides information about the development of Alt Ctrl Bot.
 

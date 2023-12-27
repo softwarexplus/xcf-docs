@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Report User Command
+# Report User Command
 
 The `Report User` command allows users to report another server member for inappropriate behavior.
 

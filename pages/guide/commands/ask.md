@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Ask Command
+# Ask Command
 
 The `ask` command allows you to ask something to a server member using an embed message.
 

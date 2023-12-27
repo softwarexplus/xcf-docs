@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Report Message Command
+# Report Message Command
 
 The `Report Message` command allows users to report inappropriate or offensive messages within the server.
 

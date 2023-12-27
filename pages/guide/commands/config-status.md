@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Config-Status Command
+# Config-Status Command
 
 The `config-status` command allows users to check the configuration status of the bot.
 

@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Say Command
+# Say Command
 
 The `say` command allows users to make the bot say a specified message in the current channel.
 

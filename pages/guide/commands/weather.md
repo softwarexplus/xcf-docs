@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Weather Command
+# Weather Command
 
 The `weather` command allows users to get weather information for a specific city.
 

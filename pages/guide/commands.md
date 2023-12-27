@@ -8,7 +8,7 @@
 
 -   `channel`: Channel that you want to add as moderator-only (Type: Channel)
 
-For more details and advanced configurations, please refer to the [full documentation](/guide/commands/altctrl-announcement).
+For more details and advanced configurations, please refer to the [full documentation](/guide/commands/announcement).
 
 ## ask
 
@@ -79,10 +79,14 @@ For more details and advanced configurations, please refer to the [full document
 **Description:** Report a message  
 **Type:** Message Context Menu
 
+For more details and advanced configurations, please refer to the [full documentation](/guide/commands/report-message).
+
 ## Report User
 
 **Description:** Report a user  
 **Type:** User Context Menu
+
+For more details and advanced configurations, please refer to the [full documentation](/guide/commands/report-user).
 
 ## rps
 
@@ -137,16 +141,12 @@ For more details and advanced configurations, please refer to the [full document
 
 For more details and advanced configurations, please refer to the [full documentation](/guide/commands/trivia).
 
-## User In
+## User Information
 
-Formation
-
-**Description:** Get user in
-Formation  
+**Description:** Get user information  
 **Type:** User Context Menu
 
-For more details and advanced configurations, please refer to the [full documentation](/guide/commands/user-in
-Formation).
+For more details and advanced configurations, please refer to the [full documentation](/guide/commands/user-info).
 
 ## weather
 
@@ -155,7 +155,6 @@ Formation
 **Type:** Chat Input  
 **Options:**
 
--   `city`: City to get weather
-    For (Type: String)
+-   `city`: City to get weather For (Type: String)
 
 For more details and advanced configurations, please refer to the [full documentation](/guide/commands/weather).

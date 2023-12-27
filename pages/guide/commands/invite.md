@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Invite Command
+# Invite Command
 
 The `invite` command provides information on how to invite Alt Ctrl Bot to your Discord server.
 

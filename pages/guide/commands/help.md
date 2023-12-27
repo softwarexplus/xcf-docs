@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Help Command
+# Help Command
 
 The `help` command provides information on available commands and their usage within Alt Ctrl Bot.
 

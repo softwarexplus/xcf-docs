@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Eval Command
+# Eval Command
 
 The `eval` command allows developers with appropriate permissions to evaluate and execute custom JavaScript code.
 

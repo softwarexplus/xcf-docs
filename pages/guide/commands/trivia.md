@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - Trivia Command
+# Trivia Command
 
 The `trivia` command allows users to play trivia with the bot.
 

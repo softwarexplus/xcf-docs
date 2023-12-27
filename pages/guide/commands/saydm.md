@@ -1,4 +1,4 @@
-# Alt Ctrl Bot - SayDM Command
+# SayDM Command
 
 The `saydm` command allows users to make the bot send a specified message in their Direct Message (DM).
 
