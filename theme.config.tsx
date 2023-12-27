@@ -2,44 +2,71 @@ import React from "react"
 import { DocsThemeConfig, useConfig } from "nextra-theme-docs"
 import { useRouter } from "next/router"
 
+const BASE_URL = "https://github.com/softwarexplus/AltCtrl-Docs"
+const dateOptions = {
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+}
+
+const getTitleAndPath = () => {
+    const { frontMatter, title } = useConfig()
+    const { asPath } = useRouter()
+
+    let ogTitle = `${title} – Alt Ctrl`
+
+    if (asPath === "/") {
+        ogTitle = title
+    }
+
+    return { ogTitle, asPath }
+}
+
+const useNextSeoProps = (asPath) => {
+    if (asPath !== "/") {
+        return {
+            titleTemplate: "%s – Alt Ctrl"
+        }
+    }
+}
+
+const gitTimestamp = ({ timestamp }) => {
+    const { locale, asPath } = useRouter()
+
+    if (asPath !== "/") {
+        return (
+            <>
+                Last updated on:{" "}
+                <time dateTime={timestamp.toISOString()}>{timestamp.toLocaleDateString(locale, dateOptions)}</time>
+            </>
+        )
+    }
+}
+
 const config: DocsThemeConfig = {
     logo: <span>Alt Ctrl Docs</span>,
     project: {
-        link: "https://github.com/softwarexplus/AltCtrl-Docs"
+        link: `${BASE_URL}`
     },
     chat: {
         link: "https://discord.gg/7WtsbUsypB"
     },
-    docsRepositoryBase: "https://github.com/softwarexplus/AltCtrl-Docs/tree/main",
+    docsRepositoryBase: `${BASE_URL}/tree/main`,
     footer: {
         text: (
             <span>
                 MIT {new Date().getFullYear()} ©{" "}
-                <a href="https://github.com/softwareXPlus/AltCtrl-Docs" target="_blank">
+                <a href={`${BASE_URL}`} target="_blank" rel="noopener noreferrer">
                     Alt Ctrl
                 </a>
                 .
             </span>
         )
     },
-    useNextSeoProps() {
-        const { asPath } = useRouter()
-        if (asPath !== "/") {
-            return {
-                titleTemplate: "%s – Alt Ctrl"
-            }
-        }
-    },
+    useNextSeoProps,
     head: () => {
+        const { ogTitle, asPath } = getTitleAndPath()
         const { frontMatter, title } = useConfig()
-        const { asPath } = useRouter()
-
-        let ogTitle = `${title} – Alt Ctrl`
-
-        if (asPath === "/") {
-            ogTitle = title
-        }
-
         const ogDescription = frontMatter.description || ""
 
         return (
@@ -52,24 +79,7 @@ const config: DocsThemeConfig = {
             </>
         )
     },
-    gitTimestamp({ timestamp }) {
-        const { locale, asPath } = useRouter()
-
-        if (asPath !== "/") {
-            return (
-                <>
-                    Last updated on:{" "}
-                    <time dateTime={timestamp.toISOString()}>
-                        {timestamp.toLocaleDateString(locale, {
-                            day: "numeric",
-                            month: "long",
-                            year: "numeric"
-                        })}
-                    </time>
-                </>
-            )
-        }
-    }
+    gitTimestamp
 }
 
 export default config

@@ -1,13 +1,26 @@
 {
-    "index": "Introduction",
-    "commands": "Commands",
-    "configuration": "Configuration",
+    "index": {
+        "title": "Introduction",
+        "type": "page"
+    },
+    "guide": {
+        "title": "Guide",
+        "type": "page"
+    },
+    "invite": {
+        "title": "Invite ↗",
+        "type": "page",
+        "href": "https://discord.com/api/oauth2/authorize?client_id=926662700975665192&permissions=28445531696371&scope=bot+applications.commands",
+        "newWindow": true
+    },
     "terms": {
         "title": "Terms of Service",
-        "type": "page"
+        "type": "page",
+        "display": "hidden"
     },
     "privacy": {
         "title": "Privacy Policy",
-        "type": "page"
+        "type": "page",
+        "display": "hidden"
     }
 }
