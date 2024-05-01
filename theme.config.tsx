@@ -3,20 +3,20 @@ import { DocsThemeConfig, useConfig } from "nextra-theme-docs"
 import { useRouter } from "next/router"
 
 const config: DocsThemeConfig = {
-    logo: <span>Alt Ctrl Docs</span>,
+    logo: <span>xcf docs</span>,
     project: {
-        link: "https://github.com/softwarexplus/AltCtrl-Docs"
+        link: "https://github.com/SoftwareXPlus/xcf-docs"
     },
     chat: {
         link: "https://discord.gg/7WtsbUsypB"
     },
-    docsRepositoryBase: "https://github.com/softwarexplus/AltCtrl-Docs/tree/main",
+    docsRepositoryBase: "https://github.com/SoftwareXPlus/xcf-docs/tree/main",
     footer: {
         text: (
             <span>
                 MIT {new Date().getFullYear()} ©{" "}
-                <a href="https://github.com/softwareXPlus/AltCtrl-Docs" target="_blank">
-                    Alt Ctrl
+                <a href="https://github.com/SoftwareXPlus/xcf-docs" target="_blank">
+                    xcf
                 </a>
                 .
             </span>
@@ -26,7 +26,7 @@ const config: DocsThemeConfig = {
         const { asPath } = useRouter()
         if (asPath !== "/") {
             return {
-                titleTemplate: "%s – Alt Ctrl"
+                titleTemplate: "%s – xcf"
             }
         }
     },
@@ -34,7 +34,7 @@ const config: DocsThemeConfig = {
         const { frontMatter, title } = useConfig()
         const { asPath } = useRouter()
 
-        let ogTitle = `${title} – Alt Ctrl`
+        let ogTitle = `${title} – xcf`
 
         if (asPath === "/") {
             ogTitle = title

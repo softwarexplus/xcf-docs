@@ -1,18 +1,18 @@
-# Alt Ctrl - Privacy Policy
+# Privacy Policy
 
-Welcome to the Alt Ctrl bot's Privacy Policy. Please read this document carefully.
+Welcome to the xcf bot's Privacy Policy. Please read this document carefully.
 
-By using Alt Ctrl, you acknowledge and agree to this Privacy Policy. Please review it periodically for any updates.
+By using xcf, you acknowledge and agree to this Privacy Policy. Please review it periodically for any updates.
 
 ## 1. Information Collection
 
-###### 1.1. We may collect and log data related to command activities when you use Alt Ctrl to improve the quality of our service.
+###### 1.1. We may collect and log data related to command activities when you use xcf to improve the quality of our service.
 
 ###### 1.2. We do not collect any personally identifiable information (PII) unless explicitly provided by you.
 
 ## 2. Use of Information
 
-###### 2.1. We use collected data for the sole purpose of improving Alt Ctrl's performance and functionality.
+###### 2.1. We use collected data for the sole purpose of improving xcf's performance and functionality.
 
 ###### 2.2. We do not sell, trade, or share your data with third parties.
 
@@ -22,15 +22,15 @@ By using Alt Ctrl, you acknowledge and agree to this Privacy Policy. Please revi
 
 ## 4. Cookies
 
-###### 4.1. Alt Ctrl does not use cookies to collect information.
+###### 4.1. xcf does not use cookies to collect information.
 
 ## 5. Third-Party Links
 
-###### 5.1. Alt Ctrl may contain links to third-party websites or services. We are not responsible for the privacy practices of these external websites.
+###### 5.1. xcf may contain links to third-party websites or services. We are not responsible for the privacy practices of these external websites.
 
 ## 6. Children's Privacy
 
-###### 6.1. Alt Ctrl is not intended for use by individuals under the age of 13. We do not knowingly collect data from users under 13 years old.
+###### 6.1. xcf is not intended for use by individuals under the age of 13. We do not knowingly collect data from users under 13 years old.
 
 ## 7. Changes to Privacy Policy
 

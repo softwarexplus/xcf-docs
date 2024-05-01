@@ -1,5 +1,5 @@
 {
-    "name": "nextra-docs-template",
+    "name": "xcf",
     "version": "0.0.1",
     "description": "Nextra docs template",
     "scripts": {
@@ -9,23 +9,23 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.comsoftwareXPlus/OverCtrl-Docs.git"
+        "url": "git+https://github.com/SoftwareXPlus/xcf-docs.git"
     },
-    "author": "Shu Ding <g@shud.in>",
+    "author": "SoftwareX Plus",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/softwareXPlus/OverCtrl-Docs/issues"
+        "url": "https://github.com/SoftwareXPlus/xcf-docs/issues"
     },
-    "homepage": "https://github.com/softwareXPlus/OverCtrl-Docs#readme",
+    "homepage": "https://github.com/SoftwareXPlus/xcf-docs#readme",
     "dependencies": {
         "next": "^13.0.6",
         "nextra": "latest",
         "nextra-theme-docs": "latest",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
     },
     "devDependencies": {
-        "@types/node": "18.11.10",
-        "typescript": "^4.9.3"
+        "@types/node": "20.12.7",
+        "typescript": "^5.4.5"
     }
 }

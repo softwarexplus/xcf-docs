@@ -1,16 +1,17 @@
 {
     "index": {
         "title": "Introduction",
-        "type": "page"
+        "type": "page",
+        "display": "hidden"
     },
-    "guide": {
-        "title": "Guide",
+    "faq": {
+        "title": "FAQ",
         "type": "page"
     },
     "invite": {
         "title": "Invite ↗",
         "type": "page",
-        "href": "https://discord.com/api/oauth2/authorize?client_id=926662700975665192&permissions=28445531696371&scope=bot+applications.commands",
+        "href": "https://discord.com/oauth2/authorize?client_id=1211535069492154398",
         "newWindow": true
     },
     "terms": {

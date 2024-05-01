@@ -1,6 +1,6 @@
-# Alt Ctrl Documentation
+# xcf bot documentation
 
-Welcome to the documentation for the Alt Ctrl bot
+Welcome to the documentation for the xcf bot
 
 This documentation provides detailed information on each module and command, including descriptions, usage, and examples.
 
@@ -8,4 +8,4 @@ This documentation provides detailed information on each module and command, inc
 
 If you're new here, let's get started! Check out our [Documentation](/guide) to familiarize yourself with the basics and essential commands.
 
-By using Alt Ctrl, you acknowledge that you agree to Alt Ctrl's [Terms of Service](/terms) and [Privacy Policy](/privacy).
+By using xcf, you acknowledge that you agree to xcf's [Terms of Service](/terms) and [Privacy Policy](/privacy).
