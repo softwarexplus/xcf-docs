@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SoftwareXPlus/xcf-docs.git"
+        "url": "git+https://github.com/softwarexplus/xcf-docs.git"
     },
     "author": "SoftwareX Plus",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/SoftwareXPlus/xcf-docs/issues"
+        "url": "https://github.com/softwarexplus/xcf-docs/issues"
     },
-    "homepage": "https://github.com/SoftwareXPlus/xcf-docs#readme",
+    "homepage": "https://github.com/softwarexplus/xcf-docs#readme",
     "dependencies": {
         "next": "^13.0.6",
         "nextra": "latest",

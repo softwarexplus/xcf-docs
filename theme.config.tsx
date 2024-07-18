@@ -5,17 +5,17 @@ import { useRouter } from "next/router"
 const config: DocsThemeConfig = {
     logo: <span>xcf docs</span>,
     project: {
-        link: "https://github.com/SoftwareXPlus/xcf-docs"
+        link: "https://github.com/softwarexplus/xcf-docs"
     },
     chat: {
-        link: "https://discord.gg/7WtsbUsypB"
+        link: "https://discord.gg/CV53ZxmeaE"
     },
-    docsRepositoryBase: "https://github.com/SoftwareXPlus/xcf-docs/tree/main",
+    docsRepositoryBase: "https://github.com/softwarexplus/xcf-docs/tree/main",
     footer: {
         text: (
             <span>
                 MIT {new Date().getFullYear()} ©{" "}
-                <a href="https://github.com/SoftwareXPlus/xcf-docs" target="_blank">
+                <a href="https://github.com/softwarexplus/xcf-docs" target="_blank">
                     xcf
                 </a>
                 .
