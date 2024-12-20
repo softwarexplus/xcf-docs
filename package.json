@@ -1,32 +1,22 @@
 {
-    "name": "xcf",
-    "version": "0.0.1",
-    "description": "Nextra docs template",
+    "name": "nextra-docs-template",
+    "version": "1.0.0",
+    "author": "SoftwareX Plus",
+    "license": "MIT",
+    "homepage": "https://github.com/softwarexplus/xcf-docs#readme",
+    "bugs": {
+        "url": "https://github.com/softwarexplus/xcf-docs/issues"
+    },
     "scripts": {
         "dev": "next dev",
         "build": "next build",
         "start": "next start"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/softwarexplus/xcf-docs.git"
-    },
-    "author": "SoftwareX Plus",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/softwarexplus/xcf-docs/issues"
-    },
-    "homepage": "https://github.com/softwarexplus/xcf-docs#readme",
     "dependencies": {
-        "next": "^13.0.6",
-        "nextra": "latest",
-        "nextra-theme-docs": "latest",
-        "react": "^18.3.1",
-        "react-dom": "^18.3.1"
-    },
-    "devDependencies": {
-        "@types/node": "20.12.7",
-        "@types/react": "18.3.3",
-        "typescript": "^5.4.5"
+        "next": "^15.1.0",
+        "nextra": "^3.2.5",
+        "nextra-theme-docs": "^3.2.5",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
     }
 }
